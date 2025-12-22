@@ -14,6 +14,8 @@ handwritten-digit-recognition/
 │   │
 │   └── processed/                    # Preprocessed data ready for training
 │
+├── models/                           # Trained model files (.pkl)
+│
 ├── notebooks/
 │   ├── 01_data_preprocessing.ipynb          # Data loading, cleaning, and preprocessing
 │   │
@@ -58,6 +60,7 @@ handwritten-digit-recognition/
 |--------|-------------|
 | `data/raw/` | Contains the original, unprocessed dataset (DIDA 10K handwritten digits) |
 | `data/processed/` | Stores preprocessed NumPy arrays (train/test splits) ready for model training |
+| `models/` | Trained machine learning model files (.pkl) that can be loaded for predictions |
 | `notebooks/` | Jupyter notebooks for data preprocessing, model training, and evaluation |
 | `results/metrics/` | CSV files containing performance metrics (accuracy, precision, recall, F1-score) |
 | `results/confusion_matrices/` | PNG images of confusion matrices for each classifier |
